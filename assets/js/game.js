@@ -13,6 +13,9 @@ var enemyHealth = 9;
 var enemyAttack = 12;
 
 console.log(enemyNames);
+console.log(enemyNames[0]);
+console.log(enemyNames[1]);
+console.log(enemyNames[2]);
 
 
 // create function
