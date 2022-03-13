@@ -8,9 +8,12 @@ var playerMoney = 10;
 //You can also log multiple values at once like this
 console.log(playerName, playerAttack, playerHealth);
 
-var enemyName = "Roborto";
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
 var enemyHealth = 9;
 var enemyAttack = 12;
+
+console.log(enemyNames);
+
 
 // create function
 var fight = function() {
@@ -75,7 +78,11 @@ console.log(
   }
 }
 
-
+// Game States
+// "WIN" - Player robot has defeated all enemy-robots
+//    * Fight all enemy-robots
+//    * Defeat each enemy-robot
+// "LOSE" - Player robot's health is zero or less
 
 //Subtract the value of `playerAttack` from the value of `enemyHealth` and use that result to update the value in the `enemyHealth` variable
 enemyHealth = enemyHealth - playerAttack;
@@ -92,7 +99,7 @@ console.log(
 
 
 //execute function
-fight();
+//fight();
 
 
   
